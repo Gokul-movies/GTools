@@ -1,3 +1,14 @@
+import os
+
+
+
+
+
+
+
+
+
+
 print("   \033[1;33;40m_____       _______    ____     ____    _         _____ ")
 print("  / ____|     |__   __|  / __ \   / __ \  | |       / ____|")
 print(" | |  __         | |    | |  | | | |  | | | |      | (___ ")  
@@ -76,115 +87,115 @@ print("\033[1;33;40m[24]\033[1;32;40m Hulk")
 print("\033[1;33;40m[25]\033[1;32;40m Mrphish \033[1;34;40m(New)")
 
 print("")
-print("\033[1;31;40mEnter number \033[1;36;40m--------->\033[1;37;40m")
+print("\033[1;31;40mEnter number \033[1;36;40m--------->")
 number = input()
 
 if number == '1':
-	print("COPY THE COMMAND ::")
-	print("pkg update && pkg upgrade -y && pkg install zip wget -y && wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip && unzip ngrok-stable-linux-arm.zip && chmod +x ngrok && ./ngrok")
+	print("Installing...............")
+	os.system('pkg update && pkg upgrade -y && pkg install zip wget -y && wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip && unzip ngrok-stable-linux-arm.zip && chmod +x ngrok && ./ngrok')
 
 if number == '2':
-	print("COPY THE COMMAND ::")
-	print("pkg install git && pkg install python && git clone https://github.com/Hackertrackersj/Tbomb.git && cd Tbomb && chmod +x TBomb.sh && ./TBomb.sh")
+	print("Installing...............")
+	os.system('pkg install git && pkg install python && git clone https://github.com/Hackertrackersj/Tbomb.git && cd Tbomb && chmod +x TBomb.sh && ./TBomb.sh')
 
 if number == '3':
-	print("COPY THE COMMAND :: ")
-	print("git clone git://github.com/htr-tech/nexphisher.git && cd nexphisher && bash setup && ./nexphisher")
+	print("Installing...............")
+	os.system('git clone git://github.com/htr-tech/nexphisher.git && cd nexphisher && bash setup && ./nexphisher')
 	
 
 if number == '4':
-	print(" COPY THE COMMAND ::")
-	print("pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Kali/kali-xfce.sh | bash")
+	print("Installing...............")
+	os.system('pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Kali/kali-xfce.sh | bash')
 	
 
 if number == '5':
-	print("COPY THE COMMAND ::")
-	print("pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu20/ubuntu20-xfce.sh | bash")
+	print("Installing...............")
+	os.system('pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu20/ubuntu20-xfce.sh | bash')
 	
 		
 if number == '6':
-	print("COPY THE COMMAND ::")
-	print("pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Arch/armhf/arch-xfce.sh | bash")
+	print("Installing...............")
+	os.system('pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Arch/armhf/arch-xfce.sh | bash')
 
 	
 if number == '7':
-	print("COPY THE COMMAND ::")
-	print("pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Debian/debian-xfce.sh | bash")
+	print("Installing...............")
+	os.system('pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Debian/debian-xfce.sh | bash')
 
 	
 elif number == '8':
-	print("COPY THE COMMAND")
-	print("pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Manjaro/manjaro-xfce.sh | bash")
+	print("Installing...............")
+	os.system('pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Manjaro/manjaro-xfce.sh | bash')
 elif number == '9':
-	print("COPY THE COMMAND")
-	print("pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Fedora/fedora-xfce.sh | bash")
+	print("Installing...............")
+	os.system('pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Fedora/fedora-xfce.sh | bash')
 	
 elif number == '10':
-	print("COPY THE COMMAND")
-	print("pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Void/void-xfce.sh | bash")
+	print("Installing...............")
+	os.system('pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Void/void-xfce.sh | bash')
 	
 		
 elif number == '11':
-	print("COPY THE COMMAND ::")
-	print("pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Alpine/alpinexfce.sh | bash")
+	print("Installing...............")
+	os.system('pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Alpine/alpinexfce.sh | bash')
 	
 		
 elif number == '12':
-	print("COPY THE COMMAND ::")
-	print("apt-get install beef")
+	print("Installing...............")
+	os.system('apt-get install beef')
 	
 elif number == '13':
-	print("COPY THE COMMAND ::")
-	print("git clone https://github.com/jseidl/GoldenEye.git && python goldeneye.py")
+	print("Installing...............")
+	os.system('git clone https://github.com/jseidl/GoldenEye.git && python goldeneye.py')
 	
 elif number == '14':
-	print("COPY THE COMMAND")
-	print("pkg update && pkg upgrade && pkg install git && pkg install python && pkg install python2 && pkg install wget && pkg install curl && pkg install nmap && pkg install ruby && pkg install bash && curl -LO raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh && chmod 777 metasploit.sh && msfconsole")
+	print("Installing...............")
+	os.system('pkg update && pkg upgrade && pkg install git && pkg install python && pkg install python2 && pkg install wget && pkg install curl && pkg install nmap && pkg install ruby && pkg install bash && curl -LO raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh && chmod 777 metasploit.sh && msfconsole')
 	
 	
 elif number == '15':
-	print("COPY THE COMMAND")
-	print("git clone https://github.com/rajkumardusad/IP-Tracer.git && cd IP-Tracer && chmod +x install && sh install")
+	print("Installing...............")
+	os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git && cd IP-Tracer && chmod +x install && sh install')
 	
 elif number == '16':
-	print("COPY THE COMMAND ::")
-	print("git clone https://github.com/the-c0d3r/sqli-scanner.git && cd sqli-scanner && python sqli-scanner.py")
+	print("Installing...............")
+	os.system('git clone https://github.com/the-c0d3r/sqli-scanner.git && cd sqli-scanner && python sqli-scanner.py')
 	
 elif number == '17':
-	print("COPY THE COMMAND ::")
-	print("apt-get install python3-pip && git clone https://www.github.com/threat9/routersploit && cd routersploit && python3 -m pip install -r requirements.txt && python3 rsf.py")
+	print("Installing...............")
+	os.system('apt-get install python3-pip && git clone https://www.github.com/threat9/routersploit && cd routersploit && python3 -m pip install -r requirements.txt && python3 rsf.py')
 	
 elif number == '18':
-	print("COPY THE COMMAND ::")
-	print("git clone https://github.com/Ha3MrX/DDos-Attack && cd DDos-Attack && chmod +x ddos-attack.py && python ddos-attack.py")
+	print("Installing...............")
+	os.system('git clone https://github.com/Ha3MrX/DDos-Attack && cd DDos-Attack && chmod +x ddos-attack.py && python ddos-attack.py')
 	
 elif number == '19':
-	print("COPY THE COMMAND ::")
-	print("git clone https://github.com/xHak9x/SocialPhish.git && cd SocialPhish && chmod +x socialphish.sh && ./socialphish.sh")
+	print("Installing...............")
+	os.system('git clone https://github.com/xHak9x/SocialPhish.git && cd SocialPhish && chmod +x socialphish.sh && ./socialphish.sh')
 	
 elif number == '20':
-	print("COPY THE COMMAND ::")
-	print("git clone https://github.com/thelinuxchoice/blackeye && cd blackeye && bash blackeye.sh")
+	print("Installing...............")
+	os.system('git clone https://github.com/thelinuxchoice/blackeye && cd blackeye && bash blackeye.sh')
 	
 elif number == '21':
-	print("COPY THE COMMAND ::")
-	print("git clone https://github.com/XCHADXFAQ77X/XERXES.git && cd XERXES && gcc -o xerxes xerxes.c")
+	print("Installing...............")
+	os.system('git clone https://github.com/XCHADXFAQ77X/XERXES.git && cd XERXES && gcc -o xerxes xerxes.c')
 	
 elif number == '22':
-	print("COPY THE COMMAND ::")
-	print("apt-get install websploit")
+	print("Installing...............")
+	os.system('apt-get install websploit')
 	
 elif number == '23':
-	print("COPY THE COMMAND ::")
-	print("git clone https://github.com/derv82/wifite2.git && cd wifite2 && sudo python setup.py install && sudo ./Wifite.py")
+	print("Installing...............")
+	os.system('git clone https://github.com/derv82/wifite2.git && cd wifite2 && sudo python setup.py install && sudo ./Wifite.py')
 	
 elif number == '24':
-	print("COPY THE COMMAND :: ")
-	print("git clone https://github.com/grafov/hulk.git && python hulk.py")
+	print("Installing...............")
+	os.system('git clone https://github.com/grafov/hulk.git && python hulk.py')
 	
 elif number == '25':
-	print("COPY THE COMMAND ::")
-	print("git clone https://github.com/noob-hackers/mrphish && cd $HOME && ls && cd mrphish && ls && bash setup && bash mrphish")
+	print("Installing...............")
+	os.system('git clone https://github.com/noob-hackers/mrphish && cd $HOME && ls && cd mrphish && ls && bash setup && bash mrphish')
 	
 	
 print("")
