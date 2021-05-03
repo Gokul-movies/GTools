@@ -20,4 +20,3 @@ GTools is a python script to install a tools in **linux** based operating **os**
 
 We are not responsible for any misuse or damage caused by this program. use this tool at your own risk!
 
-# ![Image](Instagram2016_white-(64px).png) SUPER BOT - Instagram Automation Tools
